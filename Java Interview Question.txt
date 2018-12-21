@@ -1,0 +1,37 @@
+JVM architecture
+
+Write TreeSet's add method implementation available in java
+
+Hashmap and set difference
+
+What is hashmap implementation
+
+Why do we need to serialize object
+
+What are all the methods in serialiazable interface
+
+Can i serialize object which does not implementing serialiazable interface
+
+What is the scenario for using abstract class and interface
+
+What are all the design patterns you know
+
+What are all the ways of implementing singleton other than traditional approach
+
+What is the features in 1.8 when compared to 1.5
+
+How to do many to many mapping in hibernate
+
+Difference between save , Save or Update and merge
+
+What is rest api
+
+What are all the methods available in rest api
+
+Difference between soap and rest api
+
+How to get max 4th salary from a table
+
+How to make changes to executable for a date format change without restarting server
+
+Observable design pattern  

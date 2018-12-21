@@ -1,0 +1,64 @@
+Custom Xpath Tutorial
+
+Navigate to http://www.freecrm.com
+
+Login = //input[@name='username']
+Password = //input[@name='password']
+Submit Button =  //input[@type='submit' and @value='Login' and @class='btn btn-small']
+
+Feature Link = //a[text()='Features']  or  
+			   //a[contains(text(),'Features')]
+
+Sign Up Button    = //button[contains(text(),'Sign Up')]   or  //button[@type='button' and @class='btn']
+
+FreeCRM Homepage Object:
+
+//a[text()='Alerts']
+
+
+Another Application = http://v4-alpha.getbootstrap.com/components/dropdowns/
+
+Dropdown  = "btn btn-secondary dropdown-toggle
+
+//a[text()='Bootstrap']
+
+In FreeCRM > Login > Contacts Tab 
+
+//a[text()='Babu Lal']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@type='checkbox' and @name='contact_id']
+
+//How to Handle Dynamic Changing Ids  
+
+				//*[@id="C2__QUE_57179A1244E6618013753"]
+1. Contains
+				//input[contains(@id,'__QUE_57179A1244E6618013753')]
+2. Starts-with
+				//input[starts-with(@id,'C2__QUE_57179A1244E6618013753')]
+3. Ends-with
+				//input[contains(@id,'__QUE_57179A1244E6618013753')]
+				
+
+# Diadvantages of Absolute Xpath 
+
+1. Performance Issues
+2. Can change at any time
+3. Not reliable
+
+Relative xpath Advantage
+1. Fast
+2. Reliable
+3. unique
+4. xpath is simple to write 
+
+# For clicking on Link we will use anchar tag with Text() funtion
+ //a[contains(text(),'Features')]
+
+//input[ends-with(@id,'C2__QUE_57179A1244E6618013753')]
+
+Following-sibling
+
+//textarea[@id='resizable'][@name='riskAddress']//parent::div//following-sibling::div/a/i[@class='fa fa-sitemap']
+
+
+
+
+

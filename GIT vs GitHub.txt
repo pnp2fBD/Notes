@@ -1,0 +1,37 @@
+GIT
+GIT vs GITHub
+Importanat features of GIT
+GIT Repo
+Code Check-in & Check-out
+PULL & PUSH
+GIT Clone
+
+
+GIT HUB is a website which provides services
+1. Wiki
+2. Task Management
+3. Bug Tracking
+4. Hosting services for GIT Repo
+
+GITHUB - is Hosting services
+vs
+GIT - is just a tool for Source Control Management (SCM)
+VSS - 
+TFS - Team Foundation Server
+BitBucket -
+
+GIT Founder - Linus Torvaids - founder of GIT and Linux
+
+GIT Repo: (Central Repo) - http://siriusfs.gitlab.com/repo1.git
+1. Branch
+2. Master
+3. Feature Branch
+
+
+Check-in  -> PUSH
+Check-out -> PULL
+
+
+
+
+

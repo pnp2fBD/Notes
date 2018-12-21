@@ -1,0 +1,32 @@
+RA notes
+
+https://openweathermap.org/current
+
+https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22
+
+POST
+
+Delete
+
+Put
+
+Get,Delete,put will not create additional load on the server while making multiple calls
+
+1. GET Method -  - Simply retrives the date from server. no changes to server and resorce
+	Ex - watching you tube, checking news , searching anythong on browser
+
+2. POST Method - This method makes changes to server . It always creates resources in server.
+	Post - This can create load on server with multiple calls
+
+	ex - uploading a picture, send a tweet, submitting the form.
+
+3. Delete - his method simply delete the data or resouces from the server
+		Ex - delete any file or post from account
+		
+4. PUT - this method update the existing resources. this method can update the existing file on server
+
+
+Response code - 201 - new resource is created
+
+
+

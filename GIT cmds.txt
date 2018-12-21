@@ -1,0 +1,95 @@
+GIT commands
+
+Git clone into an existing directory
+Here am explaining how to clone a remote git repo to an existing folder (assume this folder has some untracked files).
+
+Go to the existing folder in terminal
+
+Intialization
+1. git init
+
+Link with remote repo - Add remote origin <URL>
+
+2. git remote add origin git@github.com:pnp2fBD/GalaxyAutomation.git
+
+e.g. git remote add origin <your git repo url>
+
+Check current status - what is pending to be commited
+
+3. git status
+
+Add complete project directory
+
+4. git add .
+
+5. git status 
+
+6. git commit -m "first initial commit sjuneja"
+
+PUSH to remote - master is the branch name
+7. git push origin master
+
+8. 
+
+Run $git fetch
+
+Run $git checkout -t origin/master (This works better for an empty directory, wont suit for a non-empty directory)
+
+Run $git reset origin/master if you have some files in your local existing directory.
+
+View the current repo status
+	$git status
+
+Stage your file for commit 
+	$git add -f *.*
+	
+Commit your files 
+	$git commit -m “message”
+	
+Push your changes 
+	$git push origin master
+	
+	
+SSH Key - Public key access the remote repository	
+		- Dont share the private key
+		
+PUSH - requires SSH Key
+
+PULL - dont require any authentication
+
+***************************************
+
+PULL from remote to local
+
+1. git clone <remote-url-repo>		
+
+2. git pull origin master
+
+
+Merge Process  -
+
+git init
+
+git clone <remote-repo>
+
+git add remote <remote-repo>
+
+git pull origin master
+
+
+
+git checkout master
+
+Git checkout branch2
+
+git merge branch2
+
+git push origin master
+
+
+git checkout master
+git pull origin master
+git merge tempbranch
+git push origin master
+
+

@@ -1,0 +1,18 @@
+Selenium with C#
+
+Java   		         	C#
+WebDriver   	     	IWebDriver
+WebElement      		IWebElement
+@FindBy -annotation	    [FindBy] - attributes
+
+different langauage binding
+
+C# has more sophisticated IDE i.e. Visual Studio 
+
+Referencing of selenium in visual studio
+ 2 ways :
+ 1. Download the DLL for selenium via seleniumhq.org and reference the DLL's to your project
+ 2. Reference selenium via Nuget package manager
+ 
+
+

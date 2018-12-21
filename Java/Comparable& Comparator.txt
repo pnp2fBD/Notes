@@ -1,0 +1,15 @@
+If class needs to compare object than that class should need to have comparable mechanism
+
+Comparable interface: Java.Lang (Package)
+Class should define itself that it can compare with Id only
+Limitation - You can provide natural sorting by one field only i.e. id or name (you can npt compare with multiple fields you have reconstruct the class)
+
+Comparator Interface -  Java.Util (Package)
+Example - idComparator
+
+The comparable class will comes with default comparing mechanism
+whereas in comparator class we need to explicity define the comparasion mechanism.
+
+In comparable interface - way of comparsion is fixed.
+In comparator - comparision mechanism keep on changing
+

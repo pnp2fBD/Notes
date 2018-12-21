@@ -1,0 +1,52 @@
+Wrapper Class - Default wrapper classes i.e. int - Interger already override the tostring method to display object value.
+
+Auto Boxing - automatically converts object value to integer (Object -> Primitive)
+Un Boxing - Convert Primitive type to Object and display data.
+
+Strings : is an object which will represent sequence of characters. i.e. Character Array
+	i.e. String s = "JAVA";                <-- Literal way of declaring
+	i.e. String s1 = new String("JAVA");   <-- Object way
+
+String Implements multiple interfaces
+	- Serializable
+	- CharSequence
+	- Comparable<Sring> - comparing two values 
+	
+(Strings creation) Literal way - When you create strings it will be created in String constant pool in Heap memory . it checks the string value exists or not in Constants pool in heap memory.	
+Strings are immutable. - once you create a string value you cannot modify it and if you maninpulate after creation of string than this will create new object in Sring Constant Pool in Heap Memory
+
+Disadvantages of Strings Constants Pool : 
+1. concatinating will create multiple object so it will create unnessary strings in Heap Memory
+
+HashCode - gives unique integer for each object
+
+Contract between HashCode and Equals
+
+(Strings creation) Object way -  In this it will create two variables one in Constants pool and one non-constant pool.
+
+Strings Methods
+CharAt("3")
+concat("hadoop")
+contains("VA")
+
+== Compare the reference variables or or Object comparision
+
+Equals() <-- compares the contents or values of object
+
+HashCode - it will be build based on the contents , If two hashCode are same than it does not means object are same. 
+if two object are same you should understand the Contract between Equals & HashCode methods & you should override these two methods.
+
+HashCode is memory address which is been generated based on the contents.
+
+Hashing functionality from object Class.
+
+
+
+ 
+
+	
+	
+
+
+
+

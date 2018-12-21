@@ -1,0 +1,23 @@
+Test cases on lift or escalator, 
+
+level of root cause analysis for defects, 
+
+how to access database using groovy scripting- write the script, 
+
+get the second largest number from an array, 
+
+assertions in soapui.   
+
+Program to check prime number   
+
+Abstraction and interface   
+
+Questions on Java & OOPS
+Questions of API Testing, Automation Testing
+Questions on Framework Desiging
+Questions on Selenium API and Testing Frameworks
+Analytical probleams, Technical programing questions, Scripting writing for test scenarios.
+CI & CD base questions, Jenkins Questions.
+Design improvement question
+
+elenium, Core java, agile process

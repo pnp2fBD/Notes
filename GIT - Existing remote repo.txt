@@ -1,0 +1,50 @@
+http://gitlab.siriusfs.com/testautomation/galaxyTestAutomation
+
+#GIT - with Existing remote repo
+
+1. git init
+
+2. git clone <remote-repo>
+
+3. git clone git@gitlab.siriusfs.com:sunil.juneja/awesome-project.git
+
+git remote -v // show remote repo
+
+#GIT - Create Branch and PUSH
+
+1. git checkout -b tempbranch
+
+2. git push git@gitlab.siriusfs.com:sunil.juneja/awesome-project.git tempbranch
+
+ git status
+
+3. 	git add -f *.*
+	
+4.	git commit -m “message”
+	
+5.  git push origin master
+//3. git push -u origin tempbranch
+
+
+#GIT - Checkout and Merge the branch in master Commands
+
+1. git checkout master
+2. git pull origin master
+3. git merge tempbranch
+4. git push origin master
+
+
+# show all branches
+git branch -a
+git ls-remote
+
+
+#GIT - Delete branch
+
+$ git branch -d <branch_name>
+
+$ git branch -D <branch_name>
+
+The -D option stands for --delete --force, which deletes the branch regardless of its push and merge status, so be careful using this one!
+
+$ git push --delete git@github.com:pnp2fBD/DemoJava.git tempbra

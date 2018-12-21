@@ -1,0 +1,124 @@
+My default Java parent class is Object . Always take default parent class Object.
+
+Class is a blueprint or template used to create object
+
+Class is collection of properties & behaviours where we will create object.
+
+Object is an entity which contains the state and behaviour(Funtions & Methods)
+
+Properties/State/Attrivutes are nothing just variables
+
+Behaviour are nothing but Funtions & Methods. i.e. main & display methods
+
+By using class name we will create object
+
+Create Object - By using new keyword i.e. new Object();
+
+With Object you can access state/attribute/properties and behaviour of a class.
+
+When we create Object there are two type of memory allocated in RAM called JVM memory
+
+In JVM Memory - we have Stack memory & Heap memory
+
+Object are created in Heap memory where as reference/name will be in created Stack memory
+
+Whichever class has Main method the class name and File name should be same if you using eclipse IDE.
+otherwise if you are not using eclipse its is possible to differentaite the class with file name.
+
+Variable - reserve name for memory allocation where it store some value (i.e. Container)
+
+Data Types - primitive and user defined data types
+
+Primitive data types -  Fixed data type in size
+byte   - 1
+short  - 2 byte
+int    - 4 bytes
+long   - 8 bytes
+Float  - 4 bytes	100.5000f
+Double - 8 bytes
+Char   - 2 bytes (as its uses unicode standard not ASCII) i.e. 100000
+Bool   - 1 bit , rest all uses bytes i.e 0 - false or 1 - true
+
+User defined data type - Strings,Employee, Student 
+
+Type & Variables : -
+- Local variables
+- Instance variables/Global variables - like in C++
+- Static variables - variable that you declare outside the method and inside the class with keyword static it can be accesible anywhere. 
+		   - we dont need instance to access this variable.
+		   - Static Variable will be created in common memory called as class area/ Shared memory
+           - Static will be shared will all the memories.
+- Reference variables
+
+Naming Convention -
+
+Class - Should be Noun e.g. System,Demo,Emplyoee,Student
+      -	with Capital and Next word should also be capital i.e. DarkNight
+
+Methods - Verb i.e. do actions 
+	- Should start with small letters and Next word should be capital letter
+   	   e.g. getName, getValue
+
+Variable - Should start with small letter and next word should be capital e.g. firstName, lastName
+
+Project  - All small letters
+
+Package - All in small letters
+
+Constants  - All in capital letters i.e. MIN, MAX
+
+Interface - are Adjectives, As similar as class i.e. with Capital and Next word should also be capital
+	    Runable, Serializable , Cloneable
+
+
+Constructors - is mainly use for intializing an object with default values
+	     - Special kind of method does not have return type.
+	     - JVM will create default constructor if you will not create 
+
+In Scala if you dont pass value any valye it assign default value.
+
+Method Overloading : method with same name and differs based on the no of arguments(i.e. position and type of arguments) and functionality is same and behaviour is same 
+
+(Not on return type and not on access modifiers)
+
+Constructor Overloading: constructor with differnt arguments.
+
+Constructor Chaining : - when one constructor calls the second parametrized constructor
+this keyword is representing ourself.
+
+Inheritance - acquiring the parent class properties in child class with extend keyword i.e. code reuseablity
+
+Overloading - is with in the class with different parameter
+
+Overriding  - when you taking the parent behaviour name 
+			- is outside the class in child class
+
+Below type of Inheritance Supported by Java using classes			
+
+1. Single Level             : Parent <-- Child
+2. Multilevel Inheritance	: Grandparent <-- Parent <-- Child
+3. Hierarchichal 		    : Inherit from two different Parent i.e.  Parent <-- Child1 & Child2 (two Siblings)
+
+Not Supported in Java
+1. Multiple Inheritance     :  why Multiple is not supported - Ambiguity in referring the same method in two parent class from child
+2. Hybrid					:  Also not supported using classes
+
+IS-A Relation (When we have relation between two classes)
+Parent and Child relation is called as IS-A Relation, In IS-A Relation you can make use of parent properties
+
+HAS-A relation  (When we dont find any relation than we go with HAS-A Relation)
+Class Address
+Class Employee has a Address
+Class Student has a Address
+In one Object we are refering another object. this kind of relations are called HAS-A relations
+
+This  keyword :- represent the current Object  
+
+Super Keyword :- when we have IS-A relation than only we will go with Super 
+				 If you have to use the constructor of your base class use Keyword Super
+				 You can not call super & This constructor in single class constructor		
+
+		
+
+
+ 

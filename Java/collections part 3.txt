@@ -1,0 +1,92 @@
+Map is an Interface (Key,Value) based data structure
+
+- not extending collection interface
+- for handling key-value pair of data structure
+- key can not be dupliate & null
+- value can be duplicate and null as well
+- partial Null is allowed
+- there is no order
+- no sort
+- Couple of classes has implemented Map i.e 
+	HashMap
+	HastTable
+	LinkedHashMap
+	TreeMap
+
+HashMap 
+- data should be (key,value) pair
+- allow null as in key and value (value can be null many times)
+- not allow duplicate key(override the existing key,value pair)
+- not ordered and not sorted
+
+with the help of HashCode & equals method will ensure that two objects are equal
+
+HashMap map = new HashMap();
+
+map.put(K,V)
+map.containsKey(Object K)
+map.entrySet()
+map.KeySet()
+map.values()
+
+Iterate through Map
+
+for(map.entry<K,V> map : hashmap.entrySet())
+{
+if("Kusum".equals(map.getvalue()))
+{
+sysout(map.getvalue)
+}
+
+}
+
+HashTable -
+- no difference b/w HashTable and HashMap except HashTable is synchronized
+- HashTable is from Legacy 1.2 java onwards
+- Not allow Null key & Null value
+- Duplicate not allowed
+- HashTable is used when we have concern with thread safety (one thread can update at a time)
+- In real time , we will use HashMap & TreeMap(Sorting Order i.e. Amazon Login and shopping actions means you need sorted order keys of actions)
+
+LinkedHashMap -
+- Linked HashMap i.e. maintains order as traversal is order maintains address
+- When more insertions and deletion is there
+
+
+TreeMap
+- Sorted version of HashMap
+- Internally sorted on basis of key
+
+
+TreeMap.putall(hashmap)
+TreeMap.subMap(0,true,7,false)
+
+
+Assignment -
+
+create TreeMap, put 10 values 
+create submap from this  i.e. subMap(2,5)
+assign this submap to treeMap2
+try to do subMap of TreeMap2
+
+#Student,Employee,animal - user type objects in Map
+
+When external object as a key in the map, we have take care of class has to be implemented/overrideen by HashCode and equals metod.
+
+All pre-defined class has already implemented HashCode and equals in it. i.e. String & Int Class
+
+How Sorting is happening in collection - Comparable Interface
+
+When you to handle custom type of objects you ned to override the HashTable & equals methods for uniqueness and comparable or comparator for sorting.
+
+Assign - Remove HashCode & Equals and retreive values
+
+
+
+
+
+
+
+
+
+

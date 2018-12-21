@@ -1,0 +1,82 @@
+###Cucumber/BDD - Behaviour Driven Development
+
+JUnit/TestNG - TDD framework
+
+Gherkin - Write plain english language
+
+Cucumber - JVM/Ruby  available with Java and Tuby
+
+Jbehave - available with Java only
+
+3 Main Components 
+
+1. Feature file  - e.g.  Login.Feature  -> Keywords	- Feature, Given, When, Then, As, But ,*
+
+2. Step Defination File  -> Selenium + Java + Annotation
+
+3. Test runner  -> JUnit (to run our feature and to generate the output/report)
+
+
+Advantage
+
+1. Anyone can create Testcases in Feature file i.e. manual tester,manager or product
+
+2. Write the Acceptance creatia in Feature file - entire agile team can contribute
+
+3. later on develop and write the step defination file
+
+Disaadvantage of BDD
+
+- Lengthy process to write as we have to write behaviour
+
+###Cucumber Options:
+
+dryRun
+Features
+Glue
+Monochrome
+Format
+Strict
+Tags
+
+All these cucumber options will be defined in TestRunner Class
+
+1. Dry Run - if you want to check all steps are written in step defination or not  i.e. dryRun = true		
+
+2. Features  - path of features file
+
+3. glue - path of step definations files are available
+
+4. monochrome = it will generate readbale output , display the oonsole output in proper format, Must use to generate readbale format.
+
+5. Strict - if any step is not defined it will check fail the execution if some undefined steps are there
+
+3### Data Driven Testing using Cucumber
+1. Simple Data Driven - without example
+2. With Examples + Scenario Outlines
+3. using Tables
+
+
+Difference - Scenario and Scenario Outlines
+	Data drivern approach with Exampls -> Scenario Outlines
+	Without example -> Scenario
+
+	
+System Outline-Example approach is better than datatable
+
+# cucumber datatable
+- Suppose you have multple data 
+- then you have to modify your code
+
+- System Outline - Example approach - it will be automatically reiterated with mutlipple set of data rows
+
+ Systemoutline-Example  is better as it is applicable to whole test scenario
+
+#Parametrization of Test Cases in cucumber :
+1. Simple Scenario of Data Driven - without example
+2. Scenario Outline - Example
+3. DataTable
+4. DataTable asMaps
+
+## Tags in Cucumber
+

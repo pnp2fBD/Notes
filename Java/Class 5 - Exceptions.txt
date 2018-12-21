@@ -1,0 +1,59 @@
+Exception - is an event which occurs during the execution of program and interrupts the flow
+
+exception can be handed but error can not.
+
+Checked Exception - Complie time exceptions i.e. IOExecption & SQLException
+
+Unchecked Exception - Runtime Exceptions i.e. Airthmetic & Runtime
+
+Error - Irrecoverable error - OutofMemory,AssertionError
+
+try{
+	// monitoring area
+	
+}Catch() - if problem is there in try than only catch will execute
+or Finally () - if problem is there or not but finally block of statement always execute
+
+Finally block make sure that it will execute always
+Finally() - Use Case is  - Closing the resources
+
+Contract is either write catch or Finally along with Try{ } block
+
+One try can have multiple catches 
+Try{
+	}catch()
+	}Catch()
+	}Catch()
+if you have multiple catches, catch for child exception should first and than parent/general exception should come last
+
+e.printstacktrace();
+
+throw & throws : if you dont want to handle the exception you will use throw keyword
+
+About NullPointerException JVM knows it, so JVM is creating an exception and throwing it
+
+Throw - if you want to throw exception explicity. declare throw keyword i.e. throw new Exception("Invalid Value");
+
+Throws - A method is expecting an type of Exception and dont want to handle so throws to calle method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+Overriding - provided parent class method behaviour is override by Child class method
+
+Method Overloading - is complie time polymorphism
+
+Rules Overloading -
+we will write in same class
+
+Rules Overriding:
+We should have parent & child relationship
+Method name and parameters should be same
+Access Modifier restriction should be same of widened
+Method should not be static
+
+Static Method Cannot override - Static Methods are class level so they can not be override.
+
+
+Access Modifier
+Private
+Default
+Protected
+Public
+
+Abstraction : Hiding the implementation details and provides only the functinality to end user
+
+By Class & Method we achieve it
+
+Abstract Class AbstractDemo{
+}
+
+Abstarct class cannot be instancetiated .
+we can not create object of Abstaract Class 
+
+Abstract is only the idea not an implementation
+Abstract Method does not have body
+
+Two ways to Achieve Abstraction in Java
+1. Abstraction Class - May or may not have 100% Abstraction
+2. Interface - 100% abstraction
+
+Abstract Class
+- Have Constructors, private methods, variables, normal methods, main methods and block as well
+- We can not use abstract class independently or can not create instatnce
+- as one of child class will implement the abstract method i.e. provide body of method
+- which ever class extends Abstract class they have to provide the body of abstract method if not than child class must be abstract
+- We Can access the private method from Public Method of an Abstract Class
+- We Can access the instance & constructor variable through calling super from Child class
+
+- Static Instantiation Block execute first
+- Instance Instantiation Block Execute before than Constructors
+- SIB > IIB > constructors variables
+- SIB Use - if you want to initialize anything before any Object/class loads in memory
+- IIB Use - if you want to initailze anything before the constructors is intialized go with IIB
+
+Interface - 
+- Contains only final static variables(Constants) and Abstract methods 
+- Using Interface we can achieve 100% Abstraction
+- Using Interface We can achieve multiple Inheritance as well (Inheritance from multiple parents)
+- Multiple Inheritance is possible because we are just getting the declaration from parent whereas defination we are defining it ourself in child class.
+
+Marker Interface :
+- Interface Which does have anything
+- Default Marker Interfaces are - Cloneable, Serializable, RandomAccess, RemoteAccessable
+- It enables some special features for the class i.e. Cloneable 
+- Cloneable Interface - while compling the program it tell the compliers that this class is eligible for cloning
+- Seralizable Interface - It enables the special features for class that you can covert the object to object stream
+- RandomAccess - You can specify the index while picking the value in array, if you implement RandomAccess you can pick the object randomly
+- RandomAccess - enables remote access for the class
+Object can not travel on network so it needs serialization.
+
+Diff b/w Abstract and Interface
+Loose Coupling - When Parent instance variable refer any of its child instance
+
+Polymorphism - 
+	
+	Overloading - name is same but no of parameters are different so they are acting differently as compile time they come to know how to behave so (its static polymorphism)
+	
+	Method Overloading is the best example of Polymorphism.
+	
+	Overriding - When methods of child class having same name and signature but behaves differently from parent class  - at run time it decide wethear child class method will execute or parent class method - (Runtime polymorphism)
+
+Dynamic Polymorphism - 
+	We can override the parent methods. Runtime & dynamic polymorphism through behaviors(i.e. methods) not from variables
+	parent class variables can not be overriden. (Blindly Follow still no justifications)
+
+Access Modifiers - 	
+	Private - variable & method - Access within class only, cannot be accessed outside the class or access them from public method of same class
+	Default - Access within the Package,Class 
+	Protected - With in Class,Package and also in subclass
+	Public - Access Everywhere - package,class,subclass,outside packageGurugram, Haryana
+	
+Access Specifiers - Static, Abstract, Final	
+	if we declare any variable final - variable(Constants) & methods (Cannot Overriding) & Class (Lifetime Bachelor Class)
+	Static - bloack,variable,class & method
+	Abstract - class & methods
+	Syncnorized - Blocks & Method (Multithreaded Environment) One thread can access at time if syncnorized
+	Transient - Seralization
+	Volatile  - Multithreaded
+	
+Encapsulation - Wrapping up of code and data member & member funtion in single unit 
+Getters & Setters
+
+Example - Java Beans - Read Only & Write Only - its a class which contains the private member and public Methods
+
+Example MVC - Model , View & Controller
+
+Array - Linear list of collection
+	  -  group of element at single place
+	  -  retrival is fast with index
+      -  Same type of data it can store only
+      -  Size (no auto grow facility)	  
+
+
+	
+
+	
+	
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+Mutable Strings/ String Buffer 
+Sting Buffer is a class where you can modify your strings
+
+StringBuffer sb = new StringBuffer("JAVA")
+sb.append("J2EE")
+	
+Create in non Constant Pool memory and modify the existing String 
+
+String Buffer are Synchornized (Thread Safe).
+
+String Builder - as similar as String Buffer but it is not sychronized
+
+Only Difference - String Buffer is thread safe whereas String Builder is not
+
+String        Diff   String Buffer
+Immutable             mutable
+Hashcode changes      HashCode remains same
+Literal way 	     Object Way
+Non-Sync- No need     Syncronized - by default 	
+
+Serialization - Converting your object into byte stream
+so that they can travel to next machine on network
+i.e. also write into files as well through serialization
+
+Object - is an identity which has some state and behaviour
+
+Convert Object States --> Byte Stream
+
+De-Serialization - Converting back the Byte Stream to Object
+
+Interface - Serializable
+Serializable implements marker interface - Its a empty interface
+Serializable Interface - tells to JVM that this class has special feature that it can convert the object to bit and byte and can travel to n/w or write to files as well
+
+make Salary field - Static or Transient (than it can not serialized)
+
+Transient - special Access modifier/specifier - who will restrict the serialization for specific varibale 
+
+IS-A relation (means inheritence) - Serialization works for child class
+
+HAS-A Relation - reference object can not be serialized
+reference class has to implement serialization by its own
+
+Exteralization - is a  interface
+its a process to convert objects to byte stream
+has two methods WriteExternal & ReadExternal
+
+Comparable interface - to sort the objects 
+String class already implemented comparable interface
+
+Comparator Interface (java.lang package) - if 
+ 
+
+
+
+
+ 

@@ -1,0 +1,27 @@
+Selenium 4  - new Features
+
+1. W3C Standardization (Completely W3C Standardization is achieved) 
+	- Appium,IOSDriver,Node.js,Proctacter based on Selenium will be impacted
+	- No json wire protocal [ Encode and decode of API request protocal will be removed ] - It will more focues on W3C protocols
+2. Selenium IDE - [Record & Play reintroduced] 
+	- Plugin will be available in all browser  
+	- CLI runner based on node.js
+	- Parallel Test execution
+3. Improved Selenium Grid 
+	- setting up nodes and hubs will become smooth and the entire grid experience is going to be streamlined. 
+	- Better support for Docker
+4. Better Selenium Grid UI 
+	- Better observability 
+	- request tracing and response logging
+5. Refreshed Documentation  - have not updated after selenium 2.0. right now they are depricated . In W3C Standard - they have to update documentation
+		
+		
+Selenium 3 Important Features
+
+		- Minimum version of Java required is Java 8+
+		- GeckoDriver for Firefox versions greater than 47.0.1.
+		- SafariDriver to run your tests in Safari on Mac
+		- Selenium 3.0 does not have HeadLess Driver (HtmlWebDriver)
+		- Official support for IE browser requires 9 or above version
+		- Edge browser is provided by Microsoft from their webdriver server.
+		- Selenium RC core library won’t be supported.
