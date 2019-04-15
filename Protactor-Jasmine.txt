@@ -1,0 +1,17 @@
+- Protactor is another JS library
+
+- Protactor is based on top of Selenium Webdriver
+
+- AngularJS (new Technology or JS framework application having or handling the dynamic contents )
+- AngularJS apps advantage - google it
+
+AngularJS locators-
+	- Ng-model
+
+Download some 
+1. NPM package	(Node.js)
+2. protactor installation
+
+	
+
+

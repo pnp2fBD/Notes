@@ -1,0 +1,22 @@
+Collection in Java is a framework - to store and manipulate the group of objects
+
+Operations - Searching,Insertion,Manipulation,Deletion ,Sorting
+
+Interfaces - Set, List, Queue, Deque
+
+Classes - ArrayList, Vector, LinkedList, HashSet, TreeSet, PriotyQueue
+
+Collection api is available in package - Java.Util 
+
+Hierarchy Diagram - 
+
+						Iterable(I)
+						Collection(I)
+1. List(I)				2. Queue(I)				3. Set(I)
+
+
+		
+		
+ArrayList - 
+
+			static array - int[a] = new int[3];

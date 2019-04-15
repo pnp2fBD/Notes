@@ -59,6 +59,21 @@ Following-sibling
 //textarea[@id='resizable'][@name='riskAddress']//parent::div//following-sibling::div/a/i[@class='fa fa-sitemap']
 
 
+Custom css locators
+
+
+select[name*=addressFormat][type]
+
+custom-drop-down[key='__text'] > select[name*=addressFormat]
+
+
+select[name*=addressFormat]:not([aria-hidden='true'])
+
+
+span[data-i18n*='banking_label'] span[text='Banking']
+
+
+
 
 
 

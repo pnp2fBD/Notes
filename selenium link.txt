@@ -1,0 +1,36 @@
+http://www.toolsqa.com/selenium-webdriver/keyword-driven-framework/test-suite-execution-engine/
+
+
+Jenkins
+
+https://wiki.jenkins-ci.org/display/JENKINS/Meet+Jenkins
+
+
+what is Maven
+
+https://maven.apache.org/what-is-maven.html
+
+
+Ant
+
+http://ant.apache.org/
+
+
+
+What is difference between Maven, ANT, Jenkins and Hudson?
+
+
+
+http://javarevisited.blogspot.in/2015/01/difference-between-maven-ant-jenkins-and-hudson.html
+
+
+
+What is difference between Maven, ANT, Jenkins and Hudson?
+
+
+http://javarevisited.blogspot.in/2015/01/difference-between-maven-ant-jenkins-and-hudson.html#ixzz3eiMbv9kM
+
+
+
+
+http://selenium-makeiteasy.blogspot.in/2014/06/page-object-model-pom-with.html

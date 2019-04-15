@@ -1,0 +1,39 @@
+Absolute xpath
+
+html/body/div[2]/div/div/footer/section[3]/div/ul/li[3]/a
+
+
+Relative xpath
+
+//*[@id='social-media']/ul/li[3]/a
+
+
+New Relative xpath
+
+ //body//footer/section[3]/div/ul/li[3]/a
+
+same as above xpath
+
+//body//footer//section[@id='footer_nav']/div[@id='social-media']/ul/li[@class='rss']/a
+
+
+Another relative xpath
+
+//body//section[3]/div/ul/li[3]/a
+
+
+
+.//*[@id='fk-mainhead-id']/div[1]/div/div[2]/div[1]/ul/li[6]/ul/li[10]/a
+
+
+
+//*[text()='Logout']
+
+
+//*[text()='Hi Sunil !']
+
+//*[@id='fk-mainhead-id']//*[text()='Hi Sunil !']
+
+//*[@id='fk-mainhead-id']//a[starts-with(text(),'Hi')]
+
+.	

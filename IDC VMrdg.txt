@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RDCMan schemaVersion="1">
+    <version>2.2</version>
+    <file>
+        <properties>
+            <name>IDC VM's</name>
+            <expanded>True</expanded>
+            <comment />
+            <logonCredentials inherit="FromParent" />
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="None">
+                <audioRedirection>0</audioRedirection>
+                <audioRedirectionQuality>0</audioRedirectionQuality>
+                <audioCaptureRedirection>0</audioCaptureRedirection>
+                <keyboardHook>2</keyboardHook>
+                <redirectClipboard>True</redirectClipboard>
+                <redirectDrives>False</redirectDrives>
+                <redirectPorts>False</redirectPorts>
+                <redirectPrinters>False</redirectPrinters>
+                <redirectSmartCards>False</redirectSmartCards>
+            </localResources>
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </properties>
+        <server>
+            <name>GUIVMTEST002</name>
+            <displayName>GUIVMTEST002</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="None">
+                <audioRedirection>2</audioRedirection>
+                <audioRedirectionQuality>0</audioRedirectionQuality>
+                <audioCaptureRedirection>0</audioCaptureRedirection>
+                <keyboardHook>2</keyboardHook>
+                <redirectClipboard>True</redirectClipboard>
+                <redirectDrives>False</redirectDrives>
+                <redirectPorts>False</redirectPorts>
+                <redirectPrinters>False</redirectPrinters>
+                <redirectSmartCards>False</redirectSmartCards>
+            </localResources>
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST004</name>
+            <displayName>GUIVMTEST004</displayName>
+            <comment>IDC VM19</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST005</name>
+            <displayName>GUIVMTEST005</displayName>
+            <comment>IDC VM19</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST006</name>
+            <displayName>GUIVMTEST006</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST007</name>
+            <displayName>GUIVMTEST007</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>10.30.10.200</name>
+            <displayName>GUIVMTEST010</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>10.30.9.23</name>
+            <displayName>GUIVMTEST012</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>10.30.10.194</name>
+            <displayName>GUIVMTEST013</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST001</name>
+            <displayName>GUIVMTEST001</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST003</name>
+            <displayName>GUIVMTEST003</displayName>
+            <comment>IDC VM19</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST008</name>
+            <displayName>GUIVMTEST008</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>10.30.10.215</name>
+            <displayName>GUIVMTEST009</displayName>
+            <comment>IDC VM19</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST011</name>
+            <displayName>GUIVMTEST011</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST014</name>
+            <displayName>GUIVMTEST014</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>10.30.10.191</name>
+            <displayName>GUIVMTEST015</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST016</name>
+            <displayName>GUIVMTEST016</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST017</name>
+            <displayName>GUIVMTEST017</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST018</name>
+            <displayName>GUIVMTEST018</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>GUIVMTEST019</name>
+            <displayName>GUIVMTEST019</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>10.30.10.201</name>
+            <displayName>GUIVMTEST020</displayName>
+            <comment>IDC VM19</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t01</name>
+            <displayName>vm-w7-ij-t01</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t02</name>
+            <displayName>vm-w7-ij-t02</displayName>
+            <comment>IDC VM02</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t03</name>
+            <displayName>vm-w7-ij-t03</displayName>
+            <comment>IDC VM03</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t04</name>
+            <displayName>vm-w7-ij-t04</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t05</name>
+            <displayName>vm-w7-ij-t05</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t06</name>
+            <displayName>vm-w7-ij-t06</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t07</name>
+            <displayName>vm-w7-ij-t07</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t08</name>
+            <displayName>vm-w7-ij-t08</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t09</name>
+            <displayName>vm-w7-ij-t09</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t10</name>
+            <displayName>vm-w7-ij-t10</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t11</name>
+            <displayName>vm-w7-ij-t11</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t12</name>
+            <displayName>vm-w7-ij-t12</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t13</name>
+            <displayName>vm-w7-ij-t13</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t14</name>
+            <displayName>vm-w7-ij-t14</displayName>
+            <comment />
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t15</name>
+            <displayName>vm-w7-ij-t15</displayName>
+            <comment>IDC VM 15</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t16</name>
+            <displayName>vm-w7-ij-t16</displayName>
+            <comment>IDC VM16</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t17</name>
+            <displayName>vm-w7-ij-t17</displayName>
+            <comment>IDC VM17</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+        <server>
+            <name>vm-w7-ij-t18</name>
+            <displayName>vm-w7-ij-t18</displayName>
+            <comment>IDC VM18</comment>
+            <logonCredentials inherit="None">
+                <userName>insurej.tester</userName>
+                <domain>SIRIUSFS</domain>
+                <password storeAsClearText="True">t3st3rs!</password>
+            </logonCredentials>
+            <connectionSettings inherit="FromParent" />
+            <gatewaySettings inherit="FromParent" />
+            <remoteDesktop inherit="FromParent" />
+            <localResources inherit="FromParent" />
+            <securitySettings inherit="FromParent" />
+            <displaySettings inherit="FromParent" />
+        </server>
+    </file>
+</RDCMan>

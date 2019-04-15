@@ -1,0 +1,76 @@
+Rest Assured
+
+
+******Session - 2 ****
+C - Create 		  - POST
+R - Read/Retrieve - Get
+U - Update 		  - PUT
+D - Delete 		  - Delete
+
+HTTP Methods: - GET/
+
+HTTP Request
+1. URI
+2. Headers
+3. Payload (JSON/XML)
+
+HTTP Response
+1. Status - 200 OK
+2. Response Payload
+3. String message - successful
+
+1. Create an Account - POST call (use to create new entity)
+>> JSON/XML
+>> Account ID = 1
+>> Account name = "Tom"
+>> Address = "New York"
+>> Account Type = "Savings"
+
+2. Get an account by ID/Name  - GET Call
+>> URI
+>> Path Parameter
+>> Query Parameter
+>> Headers
+
+URI  -  (URL + path parameter + query parameter)
+example -  http://api.com/service/account/1  (hostname + service folder + method + account No)
+
+3. Update an account (PUT Call) = (Create + Update) Create new entity + Update an existing
+>> Account ID = 1
+>> Account name = "Tom"
+>> Address = "New York"
+>> Account Type = "Current"
+
+4. Delete an account (Delete)
+JSON
+>> Account ID = 100
+>> Account name = "Tom"
+>> Address = "New York"
+>> Account Type = "Current"
+
+Status Response Code
+200 OK	      
+201 Created  		(Post call - creating new entity)
+400 Bad Request     (Payload and some attribute is missing), (URL is not correct)
+401 Unauthorized    (Authentication Error)
+404 Not found       (Account no to delete does not exist) 	
+500 Internal Error   Server not available e.g. Paytm is down)
+
+Rest Client use to test the REST APIs 
+- available in market
+POSTMAN,SOAP UI, Advance Rest Client, JMeter, Browsers
+
+Website - reqres.in
+URL (Endpoint URL) + Service URL = URI 
+
+? -> query parameter -> could be reserved for specifying attributes
+
+/ -> path parameter - to filter the records
+
+
+Swagger - API documentation
+
+Technical documentation for the api available on server
+
+
+
